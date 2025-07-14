@@ -1,0 +1,344 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: lightgreen;
+    color: black;
+}
+
+.header {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    background-color: darkgreen;
+    margin: 0 auto;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.business-name {
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+.tagline {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.nav-bar {
+    background-color: darkgreen;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: green;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.nav-bar a:hover {
+    background-color: lightgreen;
+    color: black;
+}
+
+.nav-bar a.current {
+    background-color: yellow;
+    color: black;
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+.page-title {
+    color: green;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-bottom: 25px;
+    padding: 15px;
+    border: 1px solid lightgreen;
+    border-radius: 5px;
+}
+
+.section h2 {
+    color: darkgreen;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.section h3 {
+    color: green;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.section p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.services-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.services-list li {
+    background-color: lightgreen;
+    margin: 5px 0;
+    padding: 8px;
+    border-left: 4px solid green;
+}
+
+.service-box {
+    background-color: lightgray;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid green;
+    border-radius: 8px;
+}
+
+.service-box h3 {
+    color: darkgreen;
+    margin-top: 0;
+}
+
+.contact-form {
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid green;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-label {
+    display: block;
+    font-weight: bold;
+    color: darkgreen;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid green;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.form-textarea {
+    width: 100%;
+    height: 100px;
+    padding: 8px;
+    border: 2px solid green;
+    border-radius: 4px;
+    font-size: 14px;
+    resize: vertical;
+}
+
+.form-select {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid green;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.submit-btn {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: darkgreen;
+}
+
+.contact-info {
+    background-color: lightyellow;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid green;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.footer {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.gallery-container {
+    margin: 20px 0;
+}
+
+.gallery-thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.gallery-thumb {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border: 2px solid green;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+
+.gallery-thumb:hover, .gallery-thumb:focus {
+    border-color: darkgreen;
+    outline: 2px solid darkblue;
+    outline-offset: 2px;
+}
+
+.gallery-thumb.active {
+    border-color: yellow;
+    border-width: 3px;
+}
+
+.gallery-main {
+    text-align: center;
+}
+
+.gallery-main img {
+    max-width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+.gallery-main p {
+    margin-top: 10px;
+    font-style: italic;
+    color: darkgreen;
+}
+
+.faq-item {
+    background-color: lightgray;
+    margin: 10px 0;
+    border: 2px solid green;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.faq-question {
+    background-color: lightgreen;
+    padding: 15px;
+    margin: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: darkgreen;
+}
+
+.faq-question:hover, .faq-question:focus {
+    background-color: green;
+    color: white;
+    outline: 2px solid darkblue;
+    outline-offset: 2px;
+}
+
+.faq-toggle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.faq-answer {
+    display: none;
+    padding: 15px;
+    background-color: white;
+}
+
+.form-message {
+    display: none;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.form-message.success {
+    background-color: lightgreen;
+    border: 2px solid green;
+    color: darkgreen;
+}
+
+.form-message.error {
+    background-color: lightcoral;
+    border: 2px solid red;
+    color: darkred;
+}
+
+@media (max-width: 600px) {
+    .business-name {
+        font-size: 24px;
+    }
+    
+    .main-content {
+        margin: 10px;
+        padding: 15px;
+    }
+    
+    .nav-bar a {
+        display: block;
+        margin: 5px 0;
+    }
+    
+    .logo {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .gallery-thumbnails {
+        justify-content: center;
+    }
+    
+    .gallery-thumb {
+        width: 120px;
+        height: 80px;
+    }
+    
+    .gallery-main img {
+        height: 250px;
+    }
+}

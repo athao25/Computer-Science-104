@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Green Garden Landscaping</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">GGL</div>
+        <h1 class="business-name">Green Garden Landscaping</h1>
+        <p class="tagline">Making your yard beautiful since 2015</p>
+    </header>
+
+    <nav class="nav-bar">
+        <a href="home-page.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html" class="current">Contact</a>
+    </nav>
+
+    <main class="main-content">
+        <h1 class="page-title">Contact Us</h1>
+        
+        <div class="section">
+            <p>Want to talk to us about your yard? We would love to hear from you! You can call us, send us an email, or fill out the form below. We always get back to people quickly!</p>
+        </div>
+
+        <div class="section">
+            <h2>How to Reach Us</h2>
+            
+            <div class="contact-info">
+                <h3>📞 Phone Number</h3>
+                <p><strong>(555) 123-4567</strong></p>
+                <p>Monday - Friday: 8:00 AM to 6:00 PM</p>
+                <p>Saturday: 9:00 AM to 4:00 PM</p>
+                <p>Sunday: Closed</p>
+            </div>
+            
+            <div class="contact-info">
+                <h3>📧 Email</h3>
+                <p><strong>info@greengardenlc.com</strong></p>
+                <p>We check email every day and usually answer within 24 hours!</p>
+            </div>
+            
+            <div class="contact-info">
+                <h3>🚗 Service Area</h3>
+                <p>We work in the Greater Metropolitan Area</p>
+                <p>We can travel up to 25 miles from downtown to help you with your yard!</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Send Us a Message</h2>
+            <p>Fill out this form and we will get back to you soon! Tell us about your yard and what you want us to help you with.</p>
+            
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name" class="form-label">Your Name *</label>
+                    <input type="text" id="name" name="name" class="form-input" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email" class="form-label">Your Email *</label>
+                    <input type="email" id="email" name="email" class="form-input" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone" class="form-label">Your Phone Number</label>
+                    <input type="tel" id="phone" name="phone" class="form-input">
+                </div>
+                
+                <div class="form-group">
+                    <label for="address" class="form-label">Your Address</label>
+                    <input type="text" id="address" name="address" class="form-input" placeholder="Street, City, State, ZIP">
+                </div>
+                
+                <div class="form-group">
+                    <label for="service" class="form-label">What service do you need? *</label>
+                    <select id="service" name="service" class="form-select" required>
+                        <option value="">Please pick one</option>
+                        <option value="garden">Garden design and planting</option>
+                        <option value="lawn">Lawn care and grass cutting</option>
+                        <option value="trees">Tree and bush care</option>
+                        <option value="hardscape">Patios and walkways</option>
+                        <option value="sprinklers">Sprinkler systems</option>
+                        <option value="lighting">Outdoor lighting</option>
+                        <option value="cleanup">Seasonal cleanup</option>
+                        <option value="commercial">Business/commercial work</option>
+                        <option value="consultation">Just want advice</option>
+                        <option value="other">Something else</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="budget" class="form-label">How much do you want to spend?</label>
+                    <select id="budget" name="budget" class="form-select">
+                        <option value="">I'm not sure yet</option>
+                        <option value="small">Less than $2,000</option>
+                        <option value="medium">$2,000 - $10,000</option>
+                        <option value="large">$10,000 - $25,000</option>
+                        <option value="xl">More than $25,000</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="timeline" class="form-label">When do you want to start?</label>
+                    <select id="timeline" name="timeline" class="form-select">
+                        <option value="">I'm flexible</option>
+                        <option value="asap">As soon as possible</option>
+                        <option value="month">Within a month</option>
+                        <option value="few-months">In a few months</option>
+                        <option value="spring">Next spring</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message" class="form-label">Tell us about your project</label>
+                    <textarea id="message" name="message" class="form-textarea" placeholder="Tell us what you want to do with your yard. The more details you give us, the better we can help you!"></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                        Send me tips about taking care of my yard
+                    </label>
+                </div>
+                
+                <div class="form-message" id="form-message"></div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+
+        <div class="section">
+            <h2>Questions People Ask Us</h2>
+            
+            <div class="faq-item">
+                <h3 class="faq-question">Do you give free estimates? <span class="faq-toggle">+</span></h3>
+                <div class="faq-answer">
+                    <p>Yes! We will come look at your yard and tell you how much our work will cost for free. No hidden fees or tricks.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <h3 class="faq-question">How far ahead should I call you? <span class="faq-toggle">+</span></h3>
+                <div class="faq-answer">
+                    <p>It's best to call us 2-4 weeks before you want us to start, especially in spring and fall when we are really busy. But call us anytime - we might be able to help sooner!</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <h3 class="faq-question">Are you licensed and insured? <span class="faq-toggle">+</span></h3>
+                <div class="faq-answer">
+                    <p>Yes! We have all the right licenses and insurance so you don't have to worry about anything if we work on your property.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <h3 class="faq-question">What if I don't like the work you do? <span class="faq-toggle">+</span></h3>
+                <div class="faq-answer">
+                    <p>We will come back and fix it for free! We want all our customers to be happy with their yards.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <h3 class="faq-question">How do I pay for the work? <span class="faq-toggle">+</span></h3>
+                <div class="faq-answer">
+                    <p>You can pay with cash, check, or credit card. For big projects, we can work out a payment plan so you don't have to pay everything at once.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Emergency Help</h2>
+            <p>If a tree falls down or your sprinklers break and you need help right away, call our emergency number: <strong>(555) 123-4999</strong></p>
+            <p>We can help 24 hours a day, but there might be extra charges for nights and weekends.</p>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Green Garden Landscaping. All rights reserved.</p>
+    </footer>
+    
+    <script src="contact.js"></script>
+</body>
+</html>
